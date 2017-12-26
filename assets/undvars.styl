@@ -1,0 +1,108 @@
+
+@import 'nib'
+@import 'nib/gradients'
+
+$acm = rgb(232, 176, 141 )
+$rockersoft = rgb(88, 10, 216)
+$rockerstar = rgb(38, 5, 24)
+$greenstar = rgb(141, 149, 94)
+$shamrock = rgb(65, 220, 140)
+$redrocker = rgb(219, 2, 61)
+$redrockersoft = rgb(255, 184, 202)
+$crimson = rgb(216, 14, 65)
+$bleudefrance = rgb(35, 143, 228)
+$whiteacm = rgb(255,255,255)
+
+placeholder()
+	&::-webkit-input-placeholder
+		{block}
+	&:-moz-placeholder
+		{block}
+	&::-moz-placeholder
+		{block}
+	&:-ms-input-placeholder
+		{block}
+
+
+// @ media queries 
+
+$upsm = "only screen and (min-width: 576px)"
+$upmd = "only screen and (min-width: 768px)"
+$uplg = "only screen and (min-width: 992px)"
+$upxl = "only screen and (min-width: 1200px)" 
+$xs = "only screen and (max-width: 575px)"
+$sm = "only screen and (min-width: 576px) and (max-width: 767px)"
+$md = "only screen and (min-width: 768px) and (max-width: 991px)"
+$lg = "only screen and (min-width: 992px) and (max-width: 1199px)"
+$xl = "only screen and (min-width: 1200px)"
+	
+
+body, html
+	font-family: "arial", sans-serif;
+	font-weight normal
+	letter-spacing 0.500px
+	font-size 17px
+	line-height 1.4
+	font-kerning normal
+	font-size-adjust .5
+	-webkit-font-smoothing antialiased
+	-moz-osx-font-smoothing grayscale
+	text-rendering geometricPrecision
+	quotes "“" "”"
+	
+	
+h1
+	font-family: "arial", sans-serif;
+	font-weight 800	
+
+h2,h3
+	font-family "arial", sans-serif
+	font-weight 700
+
+.img-fluid
+	object-fit contain 
+
+::-moz-selection
+	background $redrocker
+	text-shadow none
+
+::selection
+	background $redrocker
+	text-shadow none
+  
+  /*
+ * A better looking default horizontal rule
+ */
+
+hr
+	display block
+	height 1px
+	border 0
+	border-top 1px solid #ccc
+	margin 1em 0
+	padding 0
+  
+audio,
+canvas,
+iframe,
+img,
+svg,
+video
+	vertical-align middle
+
+fieldset
+	border 0
+	margin 0
+	padding 0
+
+textarea
+	resize vertical
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+.browserupgrade
+	margin 0.2em 0
+	background #ccc
+	color #000
+	padding 0.2em 0

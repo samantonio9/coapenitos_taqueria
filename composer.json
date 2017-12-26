@@ -1,0 +1,14 @@
+{
+    "name": "josem/intil",
+    "description": "Social Astronauts",
+    "require": {
+        "twig/extensions": "^2.0",
+        "#": "n"
+    },
+    "authors": [
+        {
+            "name": "monzter50",
+            "email": "josemonzter50@gmail.com"
+        }
+    ]
+}
